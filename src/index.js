@@ -1,3 +1,4 @@
 import './style.css';
+import initialLoad from './pageLoad';
 
-console.log('hello');
+initialLoad();
