@@ -1,7 +1,7 @@
-import createHomePage from './home-page.js';
-import createNavBar from './nav-bar.js';
+import createHomePage from './home-page';
+import createNavBar from './nav-bar';
 
-function initialLoad() {
+const initialLoad = () => {
     createNavBar();
     createHomePage();
 }
