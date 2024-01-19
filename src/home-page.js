@@ -2,7 +2,7 @@ const createHomePage = () => {
     const content = document.querySelector('#content');
     const pageContent = document.createElement('div');
     pageContent.id = 'pageContent';
-    pageContent.classList.add('border-solid', 'border-2', 'rounded-lg', 'border-yellow-100', 'bg-yellow-100', 'flex-1', 'justify-center', 'items-center', 'mt-16', 'mx-auto', 'w-10/12', 'p-5', 'md:w-4/12');
+    pageContent.classList.add('border-solid', 'border-2', 'rounded-lg', 'border-yellow-100', 'bg-yellow-100', "bg-opacity-70", 'flex-1', 'justify-center', 'items-center', 'mt-16', 'mx-auto', 'w-10/12', 'p-5', 'md:w-4/12');
     pageContent.innerHTML = `
         <h1 class="text-black text-3xl text-center lg:text-6xl">Gusto Italiano</h1>
         <p class="text-black text-center mt-4">
