@@ -5,7 +5,7 @@ const createMenuPage = () => {
     pageContent.classList.add('border-solid', 'border-2', 'rounded-lg', 'border-yellow-100', 'bg-yellow-100', "bg-opacity-70", 'flex-1', 'justify-center', 'items-center', 'mt-12', 'pb-10', 'mx-auto', 'p-4', 'w-4/5','lg:w-3/5' ,'h-fit');
 
     const menuHeading = document.createElement('div');
-    menuHeading.classList.add('text-2xl', 'text-center', 'mb-3');
+    menuHeading.classList.add('text-3xl', 'text-center', 'mb-3');
     menuHeading.textContent = 'Menu';
     pageContent.appendChild(menuHeading);
     
