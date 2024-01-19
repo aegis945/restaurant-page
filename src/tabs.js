@@ -18,7 +18,8 @@ const switchTabs = () => {
     });
 
     contactButton.addEventListener('click', () => {
-
+        clearTabContent();
+        createContactPage();
     });
 }
 
