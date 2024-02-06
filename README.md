@@ -8,4 +8,4 @@ Learning Highlights
 2. Tailwind CSS Framework: Implemented styling using Tailwind CSS, enabling quick and responsive design without the need for custom CSS.
 
 
-[Live demo](aegis945.github.io/restaurant-page/)
+[Live demo](https://aegis945.github.io/restaurant-page/)
